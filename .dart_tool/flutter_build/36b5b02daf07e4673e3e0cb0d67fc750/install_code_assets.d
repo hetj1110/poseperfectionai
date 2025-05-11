@@ -1,0 +1,1 @@
+ D:\\workspace\\mobile_dev\\ai_pose_app\\poseperfectionai\\.dart_tool\\flutter_build\\36b5b02daf07e4673e3e0cb0d67fc750\\native_assets.json: 
