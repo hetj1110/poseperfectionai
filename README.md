@@ -81,7 +81,7 @@ flutter run
 - Add export/share functionality for session history  
 - Add authentication (Google/Apple)  
 - Cloud sync or backup of user sessions  
-- Real-time pose evaluation using ML models (optional)  
+- Real-time pose evaluation using ML models
 
 ---
 
