@@ -29,6 +29,11 @@ class _DashboardState extends State<Dashboard> {
               });
             },
           ),
+          IconButton(
+            icon: const Icon(Icons.upload_file),
+            tooltip: "Upload Session",
+            onPressed: () => Navigator.of(context).pushNamed('/upload'),
+          ),
         ],
       ),
       body: SingleChildScrollView(

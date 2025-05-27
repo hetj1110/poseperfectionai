@@ -198,7 +198,13 @@ class _SessionHistoryWidgetState extends State<SessionHistoryWidget> {
           return ListTile(
             leading: const Icon(Icons.fitness_center),
             title: Text("Reps: ${session.reps}"),
-            subtitle: Text("Duration: ${formatDuration(session.durationSec)}"),
+            subtitle: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text("Duration: ${formatDuration(session.durationSec)}"),
+                if (session.notes != null) Text("Notes: ${session.notes}"),
+              ],
+            ),
             trailing: Text(session.dateTime.split("T").first),
           );
         }),

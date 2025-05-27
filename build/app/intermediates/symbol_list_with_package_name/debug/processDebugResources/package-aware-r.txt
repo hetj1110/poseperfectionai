@@ -1081,6 +1081,15 @@ string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
 string copy
+string exo_download_completed
+string exo_download_description
+string exo_download_downloading
+string exo_download_failed
+string exo_download_notification_channel_name
+string exo_download_paused
+string exo_download_paused_for_network
+string exo_download_paused_for_wifi
+string exo_download_removing
 string expand_button_title
 string not_set
 string preference_copied
@@ -1541,3 +1550,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml flutter_image_picker_file_paths
